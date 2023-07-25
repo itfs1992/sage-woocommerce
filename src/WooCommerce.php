@@ -11,14 +11,18 @@ use function Roots\view;
 
 class WooCommerce
 {
-    public $app;
-    public $fileFinder;
-    public $sageFinder;
+    protected $app;
+    protected $fileFinder;
+    protected $sageFinder;
     
-    public function __construct() {
-        $this->app = new ContainerContract();
-        $this->fileFinder = new FileViewFinder();
-        $this->sageFinder = new ViewFinder();
+    public function __construct(
+        ViewFinder $sageFinder,
+        FileViewFinder $fileFinder,
+        ContainerContract $app
+    ) {
+        $this->app = $app;
+        $this->fileFinder = $fileFinder;
+        $this->sageFinder = $sageFinder;
     }
 
     /**
