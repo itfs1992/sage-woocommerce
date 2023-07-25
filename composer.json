@@ -1,13 +1,13 @@
 {
-  "name": "generoi/sage-woocommerce",
+  "name": "itfs1992/sage-woocommerce",
   "type": "library",
   "license": "MIT",
   "description": "",
-  "homepage": "https://github.com/generoi/sage-woocommerce",
+  "homepage": "https://github.com/itfs1992/sage-woocommerce",
   "authors": [
     {
-      "name": "Oskar Schöldström",
-      "email": "public@oxy.fi"
+      "name": "ITFS",
+      "email": "itfs1992@gmail.com"
     }
   ],
   "autoload": {
