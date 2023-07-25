@@ -6,7 +6,7 @@ Add WooCommerce support to Sage 10.
 
 Install the composer package.
 
-    composer require generoi/sage-woocommerce
+    composer require itfs1992/sage-woocommerce
 
 Add the package to the cached package manifest.
 
